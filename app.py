@@ -23,7 +23,7 @@ def create_app(db_url=None):
     app.config["SQLALCHEMY_DATABASE_URI"] = db_url or "sqlite:///data.db"
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
     app.config["PROPAGATE_EXCEPTIONS"] = True
-    app.config['JWT_SECRET_KEY'] = "6054879357072658146"
+    app.config['JWT_SECRET_KEY'] = "6054879357072658146" # Better to save it as a SYS variable
 
     db.init_app(app)
     api = Api(app)
@@ -93,6 +93,3 @@ def create_app(db_url=None):
 
     return app
 
-
-app = create_app()
-app.run(host='0.0.0.0' , port=5000)
