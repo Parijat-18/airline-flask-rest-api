@@ -55,14 +55,3 @@ class editUserInfo(MethodView):
             return jsonify(user.to_dict())
         else:
             return abort(401 , message='User Not Found')
-
-
-
-
-
-
-
-
-
-
-
