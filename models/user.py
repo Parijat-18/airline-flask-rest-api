@@ -8,6 +8,7 @@ class userModel(db.Model):
     id = db.Column(Integer, primary_key=True)
     firstName = db.Column(String(80), nullable=False)
     lastName = db.Column(String(80), nullable=False)
+    Email = db.Column(String , unique=True , nullable=False)
     pwd = db.Column(String(80) , nullable=False)
     userName = db.Column(String(80) , nullable=False , unique=True)
     passengers = db.relationship('passengerModel', backref='users')

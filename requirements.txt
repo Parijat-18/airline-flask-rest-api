@@ -8,4 +8,5 @@ flask-jwt-extended
 python-dotenv
 marshmallow
 gunicorn
+requests
 passlib

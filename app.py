@@ -10,9 +10,9 @@ from resources.flight import blp as flightBluePrint
 from resources.userinfo import blp as UserInfoBluePrint
 from resources.passenger import blp as PassengerBluePrint
 
-app = Flask(__name__)
 
 def create_app(db_url=None):
+    app = Flask(__name__)
     app.config['DEBUG'] = True
     app.config["API_TITLE"] = "Airline REST API"
     app.config["API_VERSION"] = "v1"
@@ -93,3 +93,4 @@ def create_app(db_url=None):
 
     return app
 
+create_app().run()
