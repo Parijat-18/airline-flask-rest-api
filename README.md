@@ -46,7 +46,7 @@ git clone https://github.com/Parijat-18/airline-flask-rest-api.git
 2. Create a virtual environment and install the required packages:
 
 ```bash
-cd airline-flask-rest-api.git
+cd airline-flask-rest-api
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
