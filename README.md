@@ -10,9 +10,7 @@ This repository contains a simple, yet comprehensive example of a RESTful API fo
 - [API Usage](#api-usage)
 - [Database Schema](#database-schema)
 - [API Documentation](#api-documentation)
-- [Running Tests](#running-tests)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
