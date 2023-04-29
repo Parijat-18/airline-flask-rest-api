@@ -77,7 +77,6 @@ The API provides the following endpoints for managing resources:
 - `/api/passengers`: Manage passengers (GET, POST, PUT, DELETE)
 - `/api/seats`: Manage seats (GET, POST, PUT, DELETE)
 
-Refer to the `API_DOCS.md` file for detailed information on the available endpoints, request and response formats, and examples.
 
 ## Database Schema
 
