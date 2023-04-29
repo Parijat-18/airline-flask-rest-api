@@ -52,16 +52,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-3. Configure the database URL in the `config.py` file.
-
-4. Initialize the database and run the migrations:
+3. Initialize the database and run the migrations:
 
 ```bash
 flask db init
 flask db upgrade
 ```
 
-5. Run the application:
+4. Run the application:
 
 ```bash
 flask run
